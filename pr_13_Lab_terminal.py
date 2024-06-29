@@ -1,10 +1,3 @@
-'''
-Name:Muhammad Hamza Habib
-Registration number:SP24_BAI-034
-Exam: Lab Terminal
-Date: 1-june-2024
-'''
-
 accounts = {}  # We are taking dictionary for storing informations about accoount
 account_counter = 1
 
