@@ -1,0 +1,5 @@
+a=("Sahibzada Ahmad Mujtaba")
+print(a[10:-6])
+print(a[-13:-3])
+print(a[:-3])
+print(a[::-1])
