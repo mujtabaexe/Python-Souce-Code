@@ -35,25 +35,32 @@
 
 
 
-l=[23,1,2,3,4,5,44,3,2,55,34]
-l.insert(10, 999)
-print(l)
-n=["Sahibzada","Ahmad","Mujtaba"]
-k=n+l
-print(k,"\n")
-print(l)
-k=l+n
-print(k)
-print(l,"\n")
-m=["Sahibzada","Ahmad","Mujtaba"]
-l.extend(m)
-print(l,"Extended")
-l.insert(1, 999999)
-print(l)
+# l=[23,1,2,3,4,5,44,3,2,55,34]
+# l.insert(10, 999)
+# print(l)
+# n=["Sahibzada","Ahmad","Mujtaba"]
+# k=n+l
+# print(k,"\n")
+# print(l)
+# k=l+n
+# print(k)
+# print(l,"\n")
+# m=["Sahibzada","Ahmad","Mujtaba"]
+# l.extend(m)
+# print(l,"Extended")
+# l.insert(1, 999999)
+# print(l)
 
 
 
+l=[999,23,1,999,2,3,4,5,999,44,3,2,55,34,999]
+print(l.index(999))
 
 
+l=[23,1,999,2,3,4,5,999,44,3,2,55,34,999]
+print(l.index(999))
 
+
+l=[23,1,2,3,4,5,999,44,3,2,55,34,999]
+print(l.index(999))
 
