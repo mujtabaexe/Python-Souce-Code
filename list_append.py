@@ -64,3 +64,6 @@ print(l.index(999))
 l=[23,1,2,3,4,5,999,44,3,2,55,34,999]
 print(l.index(999))
 
+print(l.index(4))
+print(l)
+
