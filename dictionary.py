@@ -1,7 +1,4 @@
-dic={ 0 : "Sahibzada",
-     1: "Ahmad",
-     2:"Mujtaba",
-     "emp": "emp_Zeeshan"}
+dic={ 0 : "Sahibzada", 1: "Ahmad", 2:"Mujtaba", "emp": "emp_Zeeshan", 3 : 1*99}
 print(dic[0])
 print(dic[1])
 print(dic[2])
@@ -20,3 +17,5 @@ print()
 for key in dic.keys():
     print(f"The value corresponding to the key {key} is {dic.keys()}") # Just to check 
 print()
+
+print(dic[3])
