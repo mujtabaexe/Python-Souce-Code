@@ -14,8 +14,10 @@ class Person:
         self.name=name
         self.occ=occ
         
+
+# As greet needs an argument so it takes info as an arrgument instead of fx. 
     @greet
-    def info(self):
+    def info(self): 
         print(f"{self.name} is a {self.occ}")
 
 
