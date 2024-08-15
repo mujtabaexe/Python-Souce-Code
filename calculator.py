@@ -1,7 +1,4 @@
-def calc(num1, num2, oper):
-    if oper not in  ["+","-","*","/"]:
-        print("Invalid option please enter correct one: ")
-        return
+def calc(num1, num2, oper): 
     if oper == "+":
         print(f"num1 + num2 is = {num1 + num2}")
     elif oper == "-":
@@ -11,13 +8,15 @@ def calc(num1, num2, oper):
     elif oper == "/":
         while num2==0:
             print("num2 cannot be 0\n")
-            num2=float(input("Enter num2 again: "))
-            if num2>0:
-                print(f"num1/num2 is ={num1/num2}")
+            num2=float(input("Enter num2 again: "))        
         print(f"num1/num2 is ={num1/num2}")
     
 
 oper= input("Enter + to add , - to subtract, * to multipy , / to divide: ")
+while oper not in  ["+","-","*","/"]:
+    print("Invalid option please enter correct one: ")
+    oper= input("Enter + to add , - to subtract, * to multipy , / to divide: ")
+
 num1=float(input("Enter num1: "))
 num2=float(input("Enter num2: "))
 
